@@ -20,6 +20,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Checking Files
+        run: |
+          ls -la
       - name: Installing Packages
         run: npm install
       - run: |
