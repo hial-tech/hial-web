@@ -30,7 +30,8 @@ jobs:
       - name: Build, Push & Deploy
         run: |
           npm run build
-          pwd
-          git --work-tree build add --all
-          git commit -m "Automatic Deploy action run by github-actions"
-          git push origin HEAD:gh-pages --force
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
