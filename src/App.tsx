@@ -1,16 +1,16 @@
-import {BrowserRouter} from 'react-router';
 import AppRoutes from '@/AppRoutes';
-import {CssBaseline, ThemeProvider} from '@mui/material';
 import theme from '@/utils/theme';
+import {CssBaseline, ThemeProvider} from '@mui/material';
+import {HashRouter} from 'react-router';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <AppRoutes />
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

@@ -1,0 +1,34 @@
+name: Deployment
+
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      CI: ''
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
+      - name: Set up Node environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Installing Packages
+        run: npm install
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+        name: Setup Git
+      - name: Build, Push & Deploy
+        run: |
+          npm run build
+          git --work-tree build add --all
+          git commit -m "Automatic Deploy action run by github-actions"
+          git push origin HEAD:gh-pages --force
