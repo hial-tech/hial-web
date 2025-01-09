@@ -30,6 +30,7 @@ jobs:
       - name: Build, Push & Deploy
         run: |
           npm run build
+          pwd
           git --work-tree build add --all
           git commit -m "Automatic Deploy action run by github-actions"
           git push origin HEAD:gh-pages --force
