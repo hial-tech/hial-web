@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "slug": "school-of-eco-responsive-architecture",
+    "title": "School of Eco-responsive Architecture",
+    "image": "/src/assets/schools/img1.png",
+    "description": "School of Energy Studies aims to develop Ladakh as a Carbon-neutral community through contextual, innovative, energy research and solutions that would serve as Sustainable Model for the mountain world"
+  },
+  {
+    "id": "2",
+    "slug": "school-of-energy-studies-sense",
+    "title": "School of Energy Studies (SENSe)",
+    "image": "/src/assets/schools/img2.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id feugiat purus. Quisque ut quam tempor, egestas diam et, feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo, at hendrerit nibh efficitur nec."
+  },
+  {
+    "id": "3",
+    "slug": "school-of-responsive-tourism",
+    "title": "School of Responsive Tourism",
+    "image": "/src/assets/schools/img3.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id feugiat purus. Quisque ut quam tempor, egestas diam et, feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo, at hendrerit nibh efficitur nec."
+  },
+  {
+    "id": "4",
+    "slug": "school-of-eco-responsive-architecture",
+    "title": "School of Eco-responsive Architecture",
+    "image": "/src/assets/schools/img2.png",
+    "description": "School of Energy Studies aims to develop Ladakh as a Carbon-neutral community through contextual, innovative, energy research and solutions that would serve as Sustainable Model for the mountain world"
+  },
+  {
+    "id": "5",
+    "slug": "school-of-energy-studies-sense",
+    "title": "School of Energy Studies (SENSe)",
+    "image": "/src/assets/schools/img3.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id feugiat purus. Quisque ut quam tempor, egestas diam et, feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo, at hendrerit nibh efficitur nec."
+  },
+  {
+    "id": "6",
+    "slug": "school-of-responsive-tourism",
+    "title": "School of Responsive Tourism",
+    "image": "/src/assets/schools/img1.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id feugiat purus. Quisque ut quam tempor, egestas diam et, feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo, at hendrerit nibh efficitur nec."
+  },
+  {
+    "id": "7",
+    "slug": "school-of-eco-responsive-architecture",
+    "title": "School of Eco-responsive Architecture",
+    "image": "/src/assets/schools/img3.png",
+    "description": "School of Energy Studies aims to develop Ladakh as a Carbon-neutral community through contextual, innovative, energy research and solutions that would serve as Sustainable Model for the mountain world"
+  },
+  {
+    "id": "8",
+    "slug": "school-of-energy-studies-sense",
+    "title": "School of Energy Studies (SENSe)",
+    "image": "/src/assets/schools/img1.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id feugiat purus. Quisque ut quam tempor, egestas diam et, feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo, at hendrerit nibh efficitur nec."
+  },
+  {
+    "id": "9",
+    "slug": "school-of-responsive-tourism",
+    "title": "School of Responsive Tourism",
+    "image": "/src/assets/schools/img2.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id feugiat purus. Quisque ut quam tempor, egestas diam et, feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo, at hendrerit nibh efficitur nec."
+  }
+]
