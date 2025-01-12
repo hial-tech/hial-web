@@ -1,4 +1,5 @@
 import {Box, Typography} from '@mui/material';
+import NavigationLink from '../NavigationLink';
 
 export type Props = {
   width?: string;
@@ -37,12 +38,10 @@ function FullBleedCard({button, imageUrl, title, description, width}: Props) {
         }}>
         <Typography variant="h6">{title}</Typography>
         <Typography variant="body2">{description}</Typography>
-        <Typography
-          variant="body2"
-          component={'a'}
-          color="inherit"
-          href={button.href}>
-          {button.text}
+        <Typography variant="body2" color="inherit">
+          <NavigationLink href={button.href ?? ''}>
+            {button.text}
+          </NavigationLink>
         </Typography>
       </Box>
     </Box>

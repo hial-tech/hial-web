@@ -56,7 +56,7 @@ function SchoolPage() {
           <Box flex={1}>
             <Box
               component={'img'}
-              src="/src/assets/schools/main.png"
+              src="/hial-web/assets/schools/main.png"
               sx={{
                 height: 'auto',
                 width: '100%'

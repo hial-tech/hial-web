@@ -1,4 +1,5 @@
 import {alpha, Box, Button, Typography} from '@mui/material';
+import {useNavigate} from 'react-router';
 
 type Props = {
   backgroundImg: string;
@@ -11,6 +12,8 @@ type Props = {
 };
 
 function HeroSection({backgroundImg, button, description, title}: Props) {
+  const navigate = useNavigate();
+
   return (
     <Box display={'flex'} justifyContent={'center'}>
       <Box
@@ -55,7 +58,7 @@ function HeroSection({backgroundImg, button, description, title}: Props) {
                   size="medium"
                   variant="contained"
                   color="secondary"
-                  href={button.href}>
+                  onClick={() => navigate(button.href ?? '')}>
                   {button.text}
                 </Button>
               </div>

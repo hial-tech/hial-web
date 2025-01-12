@@ -36,7 +36,7 @@ function SchoolPage() {
         </Box>
         <Box
           component={'img'}
-          src={'/src/assets/schools/main.png'}
+          src={'/hial-web/assets/schools/main.png'}
           height={480}
           width={'100%'}
         />

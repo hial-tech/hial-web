@@ -6,22 +6,22 @@ import {pillers} from '../Home/data';
 
 const values = [
   {
-    img: '/src/assets/about/1.png',
+    img: '/hial-web/assets/about/1.png',
     title: 'Igniting young minds',
     body: 'HIAL aims to break away from conventional thinking and encourage every student to explore their potential and entrepreneurial capacity.'
   },
   {
-    img: '/src/assets/about/2.png',
+    img: '/hial-web/assets/about/2.png',
     title: 'Leveraging traditional knowledge',
     body: 'HIAL will embrace traditional wisdom and cultural knowledge to facilitate sustainable development in mountain communities.'
   },
   {
-    img: '/src/assets/about/3.png',
+    img: '/hial-web/assets/about/3.png',
     title: 'Sustainability',
     body: 'All innovation and research will be aimed at transforming lives in the mountain ecosystem. Additionally, the campus will be eco-friendly and self-sufficient with zero-waste, zero-energy, and almost zero outside food dependency.'
   },
   {
-    img: '/src/assets/about/4.png',
+    img: '/hial-web/assets/about/4.png',
     title: 'Collaboration',
     body: 'HIAL will adopt a collaborative approach in research and will facilitate learning through partnerships with diverse institutions and individuals.'
   }
@@ -36,7 +36,7 @@ function About() {
           sx={{
             width: '100%',
             height: '460px',
-            background: `url('/src/assets/about/header.png')`,
+            background: `url('/hial-web/assets/about/header.png')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             borderRadius: '16px'
@@ -240,12 +240,12 @@ function About() {
             }}>
             <Box
               component={'img'}
-              src="/src/assets/about/5.png"
+              src="/hial-web/assets/about/5.png"
               sx={{width: {xs: 360, md: 440}}}
             />
             <Box
               component={'img'}
-              src="/src/assets/about/6.png"
+              src="/hial-web/assets/about/6.png"
               sx={{width: {xs: 360, md: 500}}}
             />
           </Box>

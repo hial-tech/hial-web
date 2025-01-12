@@ -6,6 +6,7 @@ import {
   Chip,
   Typography
 } from '@mui/material';
+import {useNavigate} from 'react-router';
 
 type Props = {
   school: {
@@ -17,9 +18,11 @@ type Props = {
 };
 
 function CourseCard({school}: Props) {
+  const navigate = useNavigate();
+
   return (
     <ButtonBase
-      href={`/courses/${school.slug}`}
+      onClick={() => navigate(`/courses/${school.slug}`)}
       sx={{
         width: '240px',
         display: 'flex',

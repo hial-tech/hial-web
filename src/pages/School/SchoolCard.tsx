@@ -1,4 +1,5 @@
 import {ButtonBase, CardContent, CardMedia, Typography} from '@mui/material';
+import {useNavigate} from 'react-router';
 
 type Props = {
   school: {
@@ -10,9 +11,11 @@ type Props = {
 };
 
 function SchoolCard({school}: Props) {
+  const navigate = useNavigate();
+
   return (
     <ButtonBase
-      href={`/school/${school.slug}`}
+      onClick={() => navigate(`/school/${school.slug}`)}
       sx={{
         width: '240px',
         height: '320px',

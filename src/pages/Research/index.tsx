@@ -13,13 +13,13 @@ function ResearchPage() {
           }}>
           <Box
             component={'img'}
-            src="/src/assets/research/1.png"
+            src="/hial-web/assets/research/1.png"
             sx={{width: '33.33%', display: {xs: 'none', md: 'block'}}}
           />
           <Box
             sx={{
               width: {xs: '100%', md: '33.33%'},
-              background: `url('/src/assets/research/4.png')`,
+              background: `url('/hial-web/assets/research/4.png')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }}>
@@ -40,7 +40,7 @@ function ResearchPage() {
           </Box>
           <Box
             component={'img'}
-            src="/src/assets/research/3.png"
+            src="/hial-web/assets/research/3.png"
             sx={{width: '33.33%', display: {xs: 'none', md: 'block'}}}
           />
         </Box>
@@ -95,12 +95,12 @@ function ResearchPage() {
               <Box
                 sx={{width: {xs: '100%', md: '50%'}}}
                 component={'img'}
-                src="/src/assets/research/2.png"
+                src="/hial-web/assets/research/2.png"
               />
               <Box
                 component={'img'}
                 sx={{width: {xs: '100%', md: '50%'}}}
-                src="/src/assets/research/1.png"
+                src="/hial-web/assets/research/1.png"
               />
             </Box>
 

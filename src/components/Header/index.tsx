@@ -12,7 +12,6 @@ import {
 } from '@mui/material';
 import {IoChevronBack, IoClose, IoMenu, IoSearch} from 'react-icons/io5';
 
-import HialLogo from '@/assets/logo.png';
 import {useState} from 'react';
 import {useNavigate} from 'react-router';
 import styles from './styles.module.css';
@@ -77,7 +76,11 @@ function Header() {
               sm: '64px'
             }
           }}>
-          <img className={styles.hialLogo} src={HialLogo} alt="Hial Logo" />
+          <img
+            className={styles.hialLogo}
+            src={'/hial-web/assets/logo.png'}
+            alt="Hial Logo"
+          />
           <IconButton sx={{color: 'primary.main'}} onClick={toggleDrawer}>
             <IoMenu size={'32'} />
           </IconButton>
@@ -91,7 +94,11 @@ function Header() {
               justifyContent="space-between"
               alignItems="center"
               sx={{m: 2}}>
-              <img className={styles.hialLogo} src={HialLogo} alt="Hial Logo" />
+              <img
+                className={styles.hialLogo}
+                src={'/hial-web/assets/logo.png'}
+                alt="Hial Logo"
+              />
               <Box>
                 <IconButton
                   onClick={toggleDrawer}

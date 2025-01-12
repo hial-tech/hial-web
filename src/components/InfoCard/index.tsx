@@ -1,4 +1,5 @@
 import {alpha, Box, Card, CardContent, Typography} from '@mui/material';
+import NavigationLink from '../NavigationLink';
 
 type Props = {
   width?: string;
@@ -56,12 +57,10 @@ function InfoCard({
         }}>
         <Typography variant="h6">{title}</Typography>
         <Typography variant="body2">{description}</Typography>
-        <Typography
-          variant="body2"
-          component={'a'}
-          color="inherit"
-          href={button.href}>
-          {button.text}
+        <Typography variant="body2" color="inherit">
+          <NavigationLink href={button.href ?? ''}>
+            {button.text}
+          </NavigationLink>
         </Typography>
       </CardContent>
     </Card>

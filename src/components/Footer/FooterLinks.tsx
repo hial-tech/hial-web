@@ -1,4 +1,5 @@
 import {Box, Typography} from '@mui/material';
+import NavigationLink from '../NavigationLink';
 
 type Props = {
   title: string;
@@ -20,13 +21,8 @@ function FooterLinks({title, links}: Props) {
         {title}
       </Typography>
       {links.map((link, index) => (
-        <Typography
-          key={index}
-          variant="body2"
-          component={'a'}
-          color="inherit"
-          href={link.href}>
-          {link.text}
+        <Typography key={index} variant="body2" color="inherit">
+          <NavigationLink href={link.href ?? ''}>{link.text}</NavigationLink>
         </Typography>
       ))}
     </Box>

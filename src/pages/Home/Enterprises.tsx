@@ -1,3 +1,4 @@
+import {NavigationLink} from '@/components';
 import {alpha, Box, Typography} from '@mui/material';
 
 type Props = {
@@ -66,12 +67,10 @@ function Enterprise({
         rowGap={'8px'}>
         <Typography variant="h6">{title}</Typography>
         <Typography variant="subtitle2">{description}</Typography>
-        <Typography
-          variant="body2"
-          component={'a'}
-          color="inherit"
-          href={button.href}>
-          {button.text}
+        <Typography variant="body2" color="inherit">
+          <NavigationLink href={button.href ?? ''}>
+            {button.text}
+          </NavigationLink>
         </Typography>
       </Box>
     </Box>

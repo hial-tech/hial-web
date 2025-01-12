@@ -22,7 +22,7 @@ function Leaders() {
         }}>
         <Box sx={{position: 'relative'}}>
           <img
-            src={'/src/assets/leaders/gitanjali.png'}
+            src={'/hial-web/assets/leaders/gitanjali.png'}
             alt="gitanjali"
             width={isMobile ? 160 : 192}
             height={isMobile ? 160 : 192}
@@ -79,7 +79,7 @@ function Leaders() {
         }}>
         <Box sx={{position: 'relative'}}>
           <img
-            src={'/src/assets/leaders/sonam.png'}
+            src={'/hial-web/assets/leaders/sonam.png'}
             alt="sonam"
             width={isMobile ? 160 : 192}
             height={isMobile ? 160 : 192}

@@ -48,7 +48,7 @@ function CoursePage() {
         <Box sx={{flex: 1, p: 2}}>
           <Box
             component={'img'}
-            src="/src/assets/schools/main.png"
+            src="/hial-web/assets/schools/main.png"
             sx={{
               height: 'auto',
               width: '100%',

@@ -43,7 +43,7 @@ function Footer() {
               rowGap: 1
             }}>
             <img
-              src={'/src/assets/logo-without-label.png'}
+              src={'/hial-web/assets/logo-without-label.png'}
               alt="logo"
               width={94}
               height={71}

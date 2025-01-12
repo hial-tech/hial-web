@@ -77,7 +77,7 @@ function Enterprise() {
                     magna nisi irure eiusmod reprehenderit laboris. Ad adipisicing
                     commodo voluptate esse. Deserunt sunt culpa aute occaecat laborum.
                     `,
-          image: '/src/assets/enterprises/3.png'
+          image: '/hial-web/assets/enterprises/3.png'
         },
         explore: liveLearningLabs.filter((i) => i.id !== id),
         sectionTitle: 'Explore our other Live learning labs'

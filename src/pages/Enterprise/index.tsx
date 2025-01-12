@@ -88,7 +88,7 @@ function Enterprise({type}: Props) {
                     magna nisi irure eiusmod reprehenderit laboris. Ad adipisicing
                     commodo voluptate esse. Deserunt sunt culpa aute occaecat laborum.
                     `,
-            image: '/src/assets/enterprises/3.png'
+            image: '/hial-web/assets/enterprises/3.png'
           },
           explore: liveLearningLabs.filter((i) => i.id !== id),
           sectionTitle: 'Explore our other Live learning labs'
@@ -109,7 +109,7 @@ function Enterprise({type}: Props) {
                     feugiat metus. Nulla vitae vehicula est. Pellentesque auctor nisl leo,
                     at hendrerit nibh efficitur nec. Lorem ipsum dolor sit amet, consectetur
                     `,
-            image: '/src/assets/enterprises/3.png'
+            image: '/hial-web/assets/enterprises/3.png'
           },
           explore: incubationSwitches.filter((i) => i.id !== id),
           sectionTitle: 'Explore our other Incubation Switches'

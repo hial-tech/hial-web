@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <Box
       sx={{
-        backgroundImage: `url(${'/src/assets/hero-img.png'})`,
+        backgroundImage: `url(${'/hial-web/assets/hero-img.png'})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: {
