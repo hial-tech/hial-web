@@ -6,3 +6,22 @@
     width: 48px;
   }
 }
+
+.navLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  color: #5e0118;
+}
+
+.viewAllLink {
+  color: #2d47a1;
+  text-decoration: underline;
+}
+
+.viewAllLink:hover {
+  color: #2d47a1;
+}
